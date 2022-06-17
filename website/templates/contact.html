@@ -1,24 +1,25 @@
 <!-- your html code here -->
 <div class="container pb-5">
-    <div style="padding:10px 50px">
-        <h1>Contact</h1>
-        <p>A bunch of words with the intention of convincing the user of the seriousness of whatever it is that is being
-            presented, but with the confidence that the user will not read more than seven words before fixing their
-            attention on an image or other visual element.
-        </p>
+    <div class="contact__header">
+        <h1 class="fw-bold">Contact</h1>
+        <p class="fs-5 pb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quis autem quasi debitis
+            dolore
+            hic rem voluptates. Nesciunt, minus? Necessitatibus fuga magni quia mollitia, sequi, eum repellendus
+            voluptate
+            quas, esse earum velit hic.</p>
     </div>
 
     <div class="row">
         <div class="col-2"></div>
         <div class="col-8 rounded border p-2 p-3 mb-2 bg-light text-dark"">
-            <div class=" input-group flex-nowrap">
-            <span class="input-group-text" id="addon-wrapping">@</span>
-            <input type="email" id="email" class="form-control" placeholder="Please enter your e-mail..."
-                aria-label="Username" aria-describedby="addon-wrapping">
+            <div class=" input-group flex-nowrap align-items-center">
+            <label for="email" style="margin-right: 2rem">Your E-mail</label>
+            <input type="email" id="email" class="form-control" placeholder="Your email" aria-label="Username"
+                aria-describedby="addon-wrapping">
         </div>
         <br>
         <div class="input-group flex-nowrap">
-
+            <label for="texampleFormControlTextarea1" style="margin-right: 1rem">Your message</label>
             <textarea class="form-control" id="exampleFormControlTextarea1"
                 placeholder="Please enter your message here..." rows="3"></textarea>
         </div>
